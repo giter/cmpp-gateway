@@ -3,10 +3,11 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"github.com/JoeCao/cmpp-gateway/gateway"
 	"io/ioutil"
 	"log"
 	"os"
+
+	"github.com/giter/cmpp-gateway/gateway"
 )
 
 func main() {

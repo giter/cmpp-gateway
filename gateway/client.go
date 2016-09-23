@@ -1,10 +1,11 @@
 package gateway
 
 import (
-	"github.com/bigwhite/gocmpp"
 	"log"
 	"strconv"
 	"time"
+
+	"github.com/bigwhite/gocmpp"
 )
 
 const (

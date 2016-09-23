@@ -12,7 +12,7 @@ func StartCmdLine() {
 	for isRunning() {
 		data, _, _ := reader.ReadLine()
 		command := string(data)
-		mes := SmsMes{Content: command, Src: "104221", Dest: "13900001111"}
+		mes := SmsMes{Content: command, Src: "110136", Dest: "13900001111"}
 
 		Messages <- mes
 		if command == "stop" {
